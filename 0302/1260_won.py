@@ -19,7 +19,6 @@ visited = [False] * (n + 1)
 dfs(v)
 print(*stack)
 
-
 visited = [0] * (n + 1)
 arr = []
 def bfs(v):
