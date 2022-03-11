@@ -16,9 +16,10 @@ visited=[False for _ in range(N+1)]
 ST=[]
 def family(x, cnt):
     visited[x] = True
-    print(x, N2)
-    if x == N2:                 #여기서 해당값맞을경우 return하고 끝내려는데
-        return cnt              # 무조건 -1이 리턴되네요..
+    if x == N2:
+        global Y
+        Y = cnt
+
     if len(Ndict_up[x]) > 0:
         for i in range(len(Ndict_up[x])):
             ST.append([Ndict_up[x].pop(),cnt+1])
@@ -30,7 +31,8 @@ def family(x, cnt):
         a = ST.pop(0)
         if visited[a[0]] == False:
             family(a[0],a[1])
-    return -1
 
+Y = -1
 cnt=0
-print(family(N1, cnt))
+family(N1, cnt)
+print(Y)
