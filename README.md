@@ -6,7 +6,6 @@
 * 박세호 : seho
 * 오행송 : haeng
 * 윤정원 : won
-* 정한철 : cheol
 * 정혜령 : hyry
 * 최승희 : hee
 
@@ -50,3 +49,17 @@
   * 소스코드는 `{문제번호}_{닉네임}.확장자명`으로 작성한다.
 
 ## 진행 상황
+
+- 0302 [백준 1260. DFS와 BFS](https://www.acmicpc.net/problem/2705) (DFS / BFS)  
+
+- 0303 [백준 1012. 유기농 배추](https://www.acmicpc.net/problem/1012) (DFS / BFS)  
+
+- 0304 [백준 7562. 나이트의 이동](https://www.acmicpc.net/problem/7562) (DFS / BFS)  
+
+- 0307 [백준 2644. 촌수 계산](https://www.acmicpc.net/problem/2644) (DFS / BFS)  
+
+- 0308 [백준 2178. 미로 탐색](https://www.acmicpc.net/problem/2178) (DFS / BFS)  
+
+- 0310 [백준 2667. 단지 번호 붙이기](https://www.acmicpc.net/problem/2677) (DFS / BFS)  
+
+- 0311 [백준 1697. 숨바꼭질](https://www.acmicpc.net/problem/1697) (DFS / BFS)  
