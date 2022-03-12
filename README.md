@@ -56,7 +56,7 @@
 
 - 0304 [백준 7562. 나이트의 이동](https://www.acmicpc.net/problem/7562) (DFS / BFS)  
 
-- 0307 [백준 2644. 촌수 계산](https://www.acmicpc.net/problem/2644) (DFS / BFS)  
+- 0307 [백준 2644. 촌수 계산](https://www.acmicpc.net/problem/2644) / 시간 제한 30분 (DFS / BFS)  
 
 - 0308 [백준 2178. 미로 탐색](https://www.acmicpc.net/problem/2178) (DFS / BFS)  
 
