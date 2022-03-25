@@ -1,23 +1,19 @@
-def make_sum(get_lst):
-    result = 0
+tc_num = int(input())
 
-    for idx in range(len(get_lst)-1):
-        result += abs(get_lst[idx]-get_lst[idx+1])
-    return result
+for tc in range(tc_num):
+    n, n_hex = input().split()
+    n_hex = list(n_hex)
 
-def makePm(output,get_,n):
-    if len(output) == n:
-        global answer
-        answer.append(make_sum(output))
-    else:
-        for idx in range(len(get_)):
-            get_2 = get_.copy()
-            nxtout = output.copy()
+    for idx in range(int(n)):
+        if ord(n_hex[idx]) >= 65:
+            n_hex[idx] = bin(ord(n_hex[idx]) - 55)
+        else:
+            n_hex[idx] = bin(int(n_hex[idx]))
 
-            nxtout.append(get_2.pop(idx))
-            makePm(nxtout,get_2,n)
-n = int(input())
-lst = list(map(int,input().split()))
-answer = []
-makePm([],lst,n)
-print(max(answer))
+    for idx in range(int(n)):
+        get_ = n_hex[idx][2:]
+        for _ in range(abs(len(get_)-4)):
+            get_ = "0"+get_
+        n_hex[idx] = get_
+    print("#{0} {1}".format(tc+1,"".join(n_hex)))
+    ## A 는 10, ord("A")-55, F는 15, 10은 16(16^1+0*16^0)
