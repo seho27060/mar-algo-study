@@ -4,7 +4,6 @@ arr = list(map(int, input().split()))
 
 A = [] # 사진틀 / 앞에 있는 사진일수록 게시된지 오래된 사진
 B = [] # 추천 수
-idx = 0
 for i in arr:
     for j in range(len(A)): # 현재 사진이 게시된 학생이 다른 학생의 추천을 받은 경우, 추천받은 횟수만 증가
         if A[j] == i:
