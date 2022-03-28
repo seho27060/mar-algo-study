@@ -64,16 +64,17 @@
 
 - 0311 [백준 1697. 숨바꼭질](https://www.acmicpc.net/problem/1697) (DFS / BFS)  
   
-- 0314 [백준 19949. 영재의 시험](https://www.acmicpc.net/problem/19949) (백트래킹)  
+- 0314 [백준 19949. 영재의 시험](https://www.acmicpc.net/problem/19949) / 시간 제한 30분 (백트래킹)  
 
 - 0315 [백준 10164. 격자상의 경로](https://www.acmicpc.net/problem/10164) (KOI 초등부)  
+
 - 0316 [백준 19699. 소-난다!](https://www.acmicpc.net/problem/19699) (백트래킹)  
 
 - 0317 [백준 8979. 올림픽](https://www.acmicpc.net/problem/8979) (KOI 초등부)  
 
 - 0318 [백준 2529. 부등호](https://www.acmicpc.net/problem/2529) (백트래킹)  
 
-- 0321 [백준 18429. 근손실](https://www.acmicpc.net/problem/18429) (백트래킹)  
+- 0321 [백준 18429. 근손실](https://www.acmicpc.net/problem/18429) / 시간 제한 30분 (백트래킹)  
 
 - 0322 [백준 2512. 예산](https://www.acmicpc.net/problem/2512) (KOI 초등부)  
 
